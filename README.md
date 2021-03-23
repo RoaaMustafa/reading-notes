@@ -17,7 +17,7 @@ welcome critical feedback |  yes
 learn from others’ success | yes
 continue to reach new levels of achievement | yes
 
-###It takes hard work, but it’s possible to change your mindset.
+### It takes hard work, but it’s possible to change your mindset.
 
 ![Growthminset](https://cdn-images-1.medium.com/max/1600/1*gtBu2XlLmY3lSAwamQXz0w.jpeg)
 
