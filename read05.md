@@ -11,7 +11,7 @@ Comaparion operators:
 * "<=" : is less than or equal to 
 logical operators:
 * $$ : logical AND
-* || : logical OR
+* "||" : logical OR
 * ! : logical NOT
 loops:
 * For : limited number of oerations 
