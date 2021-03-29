@@ -16,6 +16,7 @@ After graduation, I was selected to join the ICT upskilling program in associati
 |class 3     | [read03](read03.md)  |
 |class 4     | [read04](read04.md)  |
 |class 5     | [read05](read05.md)  |
+|class 6     | [read06](read06.md)  |
 
 
 ## [Press To Go To My GitHub](https://github.com/RoaaMustafa)
