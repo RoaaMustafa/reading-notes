@@ -22,14 +22,14 @@ background-color: rgba(0,0,0,0.5);}
 * hsl, hsla 
 {background-color: hsl(0,0%,78%);}
 {background-color: hsla(0,100%,100%,0.5);}
- ###
- SUMMERY:
- *- Color not only brings your s XX ite to life, but also helps
+
+ ### SUMMERY:
+* Color not only brings your s XX ite to life, but also helps
 convey the mood and evokes reactions.
 * There are three ways to specify colors in CSS:
-*- It is important to ensure that there is enough contrast
+* It is important to ensure that there is enough contrast
 between any text and the background color (otherwise
-*- CSS3 has introduced an extra value for RGB colors to
+* CSS3 has introduced an extra value for RGB colors to
 indicate opacity. It is known as RGBA.
-*- CSS3 also allows you to specify colors as HSL values,
+* CSS3 also allows you to specify colors as HSL values,
 with an optional opacity value. It is known as HSLA
