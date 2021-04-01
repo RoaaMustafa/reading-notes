@@ -1,11 +1,11 @@
 
 
 #  My Bio
-My name is Roaa Mustafa, I'm 22 years old,I have completed my Bachelor's degree in telecommunication engineering at al Bala University (Faculty of Engineering Technology).
+*My name is Roaa Mustafa, I'm 22 years old,I have completed my Bachelor's degree in telecommunication engineering at al Bala University (Faculty of Engineering Technology).
 I graduated in July 2020 with a very good GPA.
 I have taken a cisco certified network associate CCNA training course in cisco academy at queen sumiah university started in June 2019 until October 2019. Then I get the certificate in December 2019.
 After graduation, I was selected to join the ICT upskilling program in association with the ministry of digital commerce and Al-Hussain technical university started in June 2020 until October 2020.
-I'm intereste in programming and software development 
+I'm intereste in programming and software development*
 # Code 102 Reading Notes:
 |Assignments |     read code-102    |
 |----------- | ---------------------|
