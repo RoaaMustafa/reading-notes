@@ -56,14 +56,14 @@
 <li>History: 29 May - 21 Aug 2011</li>
 <li>Religion: 28 Aug - 6 Nov 2011</li>
 </ul>
- <boody/>
+ </boody>
 </html>
 * Inline Elements:Examples of inline elements are
 ...
 <!DOCTYPE html >
  <html>
   <a>, <b>, <em>, and <img>.
-<html/>
+</html>
    ...
    
 * Grouping Text & Elements In a Block: <div id="header"> </div> "The <div> element allows you to
@@ -78,7 +78,7 @@ height="350"
 src="http://maps.google.co.uk/maps?q=moma+new+york
 &amp;output=embed">
 </iframe>
-<html/>
+</html>
   ...
 
 * <meta> : The <meta> element lives inside the <head> element and contains information about that web page.
@@ -103,7 +103,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 <img src="images/bok-choi.jpg" alt="Bok Choi" />
 <figcaption>Bok Choi</figcaption>
 </figure>
-<html/>
+</html>
 ....
 ## 5. HTML Chapter 18: “Process & Design” (pp.452-475)
 * It's important to understand w XX ho your target audience is, why they would come to your site, what information they want to find and when they are likely to return.
