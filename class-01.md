@@ -67,7 +67,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 * <meta> : The <meta> element lives inside the <head> element and contains information about that web page.
  description, keywords, robots, author, pragma, expires, 
  * There are some characters that are used in and reserved by HTML code.
-![Characters](/code201/characters.JPG)
+* ![Characters](/code201/characters.JPG)
 
 ## 4. HTML Chapter 17: “HTML5 Layout” (pp.428-451)
 * The <header> and <footer> elements can be used for:
@@ -78,7 +78,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 * <aside> element has two purposes, depending on whether it is inside an <article> element or not.
 * <section> element groups related content together, and typically each section would have its own heading.
 * <hgroup> element is to group together a set of one or more <h1> through <h6> elements so that they are treated as one single heading.
-* <figure>
+ <figure>
 <img src="images/bok-choi.jpg" alt="Bok Choi" />
 <figcaption>Bok Choi</figcaption>
 </figure>
