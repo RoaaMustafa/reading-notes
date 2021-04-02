@@ -2,8 +2,8 @@
 ## From the Duckett HTML book:
 
 ## 1. Introduction (pp.2-11)
-* HTML is used to create web pages
-* CSS uses rules to enable you to control the styling and layout of web pages
+* HTML: is used to create web pages
+* CSS: uses rules to enable you to control the styling and layout of web pages
 * When you ask your browser for a web page, the request is sent across the Internet to a special computer known as a web server which hosts the website.
 * All websites use HTML and CSS, but content management systems, blogging software, and e-commerce platforms often add a few more technologies into the mix.
 
@@ -15,6 +15,7 @@
 * Opening tags can carry attributes, which tell us more about the content of that element.
 * Attributes require a name and a value.
 * To learn HTML you need to know what tags are available for you to use, what they do, and where they can go.
+
 ...
 <!DOCTYPE html>
 <html>
@@ -27,6 +28,8 @@
 <p>Here you can see another sub-heading.</p>
 </body>
 </html>
+...
+
 ...
 <!DOCTYPE html>
 <html>
@@ -59,11 +62,16 @@
 </ul>
  </boody>
 </html>
+...
+
 * Inline Elements:Examples of inline elements are
+
 ...
 <!DOCTYPE html >
  <html>
+ <body>
   <a>, <b>, <em>, and <img>.
+   </body>
 </html>
    ...
    
@@ -71,6 +79,8 @@
 group a set of elements together in one block-level box. "
 * Grouping Text & Elements Inline: <span class="gallery">Tate Modern</span>
 * <iframe> : src, width, height, scrolling, frameborder, seamless
+
+...
 <!DOCTYPE html>
  <html>
   <head></head>
@@ -101,6 +111,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 * <aside> element has two purposes, depending on whether it is inside an <article> element or not.
 * <section> element groups related content together, and typically each section would have its own heading.
 * <hgroup> element is to group together a set of one or more <h1> through <h6> elements so that they are treated as one single heading.
+
 ...
  <!DOCTYPE html>
  <html>
@@ -113,6 +124,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
   </body>
 </html>
 ....
+ 
 ## 5. HTML Chapter 18: “Process & Design” (pp.452-475)
 * It's important to understand w XX ho your target audience is, why they would come to your site, what information they want to find and when they are likely to return.
 * Site maps allow you to plan the structure of a site.
