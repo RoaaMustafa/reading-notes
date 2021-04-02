@@ -139,4 +139,19 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 + Design is about communication. Visual hierarchy helps visitors understand what you are trying to tell them.
 + You can differentiate between pieces of information using size, color, and style.
 + You can use grouping and similarity to help simplify the information you present.
-
+## From the Duckett JS book:
+1. A script is a series of instructions that the computer can follow in order to achieve a goal.
+2. Linking to a javascript file from an HTML page.
+`<!DOCTYPE html>
+<html>
+<head>
+<title>Constructive &amp; Co.</ title>
+<link rel ="stylesheet" href="css/ cOl.css" />
+</ head>
+<body>
+<hl>Constructive &amp; Co. </ hl>
+<script src="js/ add-content.js"></ script>
+<p>For all orders and i nquiries please cal l
+<em>SSS-3344</ em></ p>
+</ body>
+</html>'
