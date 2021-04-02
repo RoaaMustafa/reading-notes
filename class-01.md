@@ -47,6 +47,7 @@
 * Block Elements :
 <!DOCTYPE html >
 <html>
+ <head></head>
  <body>
 <h1>Hiroshi Sugimoto</h1>
 <p>The dates for the ORIGIN OF ART exhibition are as follows:</p>
@@ -72,12 +73,16 @@ group a set of elements together in one block-level box. "
 * <iframe> : src, width, height, scrolling, frameborder, seamless
 <!DOCTYPE html>
  <html>
+  <head></head>
+  <body>
+ 
 <iframe
 width="450"
 height="350"
 src="http://maps.google.co.uk/maps?q=moma+new+york
 &amp;output=embed">
 </iframe>
+</body>
 </html>
   ...
 
@@ -99,10 +104,13 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 ...
  <!DOCTYPE html>
  <html>
+  <head></head>
+  <body>
  <figure>
 <img src="images/bok-choi.jpg" alt="Bok Choi" />
 <figcaption>Bok Choi</figcaption>
 </figure>
+  </body>
 </html>
 ....
 ## 5. HTML Chapter 18: “Process & Design” (pp.452-475)
