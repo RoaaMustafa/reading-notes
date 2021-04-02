@@ -18,10 +18,10 @@ From the Duckett HTML book:
 * To learn HTML you need to know what tags are available for you to use, what they do, and where they can go.
 
 
-<!--->
+```
 <!DOCTYPE html>
 <html>
- <head>
+  <head>
   <title></title>
  </head>
 <body>
@@ -32,11 +32,11 @@ From the Duckett HTML book:
 <h2>Another Sub-Heading</h2>
 <p>Here you can see another sub-heading.</p>
 </body>
-</html>
-<-->
+ </html>
+```
 
 
-<!--->
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,15 +46,15 @@ From the Duckett HTML book:
 <h1>This is the Body of the Page</h1>
 <p>Anything within the body of a web page is displayed in the main browser window.</p>
 </body>
-</html>
-<-->
+ </html>
+```
 3. HTML Chapter 8: “Extra Markup” (p.176-199) 
 * Comments in HTML <!-- comment goes here -->
 * ID Attribute <p id="pullquote"></p>
 * Class Attribute <p class="important"> </p>
 * Block Elements :
-<!--->
-<!DOCTYPE html >
+```
+<!DOCTYPE html>
 <html>
  <head></head>
  <body>
@@ -68,23 +68,24 @@ From the Duckett HTML book:
 </ul>
  </boody>
 </html>
-<-->
+```
 
 *Inline Elements:Examples of inline elements are
-<!--->
-<!DOCTYPE html >
+```
+<!DOCTYPE html>
  <html>
  <body>
   <a>, <b>, <em>, and <img>.
    </body>
-<-->
+   </html>
+```
    
 + Grouping Text & Elements In a Block: <div id="header"> </div> "The <div> element allows you to
 group a set of elements together in one block-level box. "
 + Grouping Text & Elements Inline: <span class="gallery">Tate Modern</span>
 + <iframe> : src, width, height, scrolling, frameborder, seamless
 
-<!--->
+```
 <!DOCTYPE html>
  <html>
   <head></head>
@@ -97,7 +98,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 </iframe>
 </body>
 </html>
-<-->
+```
 
 + <meta> : The <meta> element lives inside the <head> element and contains information about that web page.
  description, keywords, robots, author, pragma, expires, 
@@ -115,7 +116,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 + <section> element groups related content together, and typically each section would have its own heading.
 + <hgroup> element is to group together a set of one or more <h1> through <h6> elements so that they are treated as one single heading.
 
-<!--->
+```
  <!DOCTYPE html>
  <html>
   <head>
@@ -130,12 +131,13 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
    </main>
   </body>
 </html>
-<-->
+```
+
  5. HTML Chapter 18: “Process & Design” (pp.452-475)
 + It's important to understand w XX ho your target audience is, why they would come to your site, what information they want to find and when they are likely to return.
 +  Site maps allow you to plan the structure of a site.
 + Wireframes allow you to organize the information that will need to go on each page.
 + Design is about communication. Visual hierarchy helps visitors understand what you are trying to tell them.
 + You can differentiate between pieces of information using size, color, and style.
-* You can use grouping and similarity to help simplify the information you present.
++ You can use grouping and similarity to help simplify the information you present.
 
