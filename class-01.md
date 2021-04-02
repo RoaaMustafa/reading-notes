@@ -15,6 +15,8 @@
 * Opening tags can carry attributes, which tell us more about the content of that element.
 * Attributes require a name and a value.
 * To learn HTML you need to know what tags are available for you to use, what they do, and where they can go.
+...
+<!DOCTYPE html>
 <html>
 <body>
 <h1>This is the Main Heading</h1>
@@ -25,7 +27,8 @@
 <p>Here you can see another sub-heading.</p>
 </body>
 </html>
-
+...
+<!DOCTYPE html>
 <html>
 <head>
 <title>This is the Title of the Page</title>
@@ -35,12 +38,16 @@
 <p>Anything within the body of a web page is displayed in the main browser window.</p>
 </body>
 </html>
+...
 
 ## 3. HTML Chapter 8: “Extra Markup” (p.176-199) 
 * Comments in HTML <!-- comment goes here -->
 * ID Attribute <p id="pullquote"></p>
 * Class Attribute <p class="important"> </p>
 * Block Elements :
+<!DOCTYPE html >
+<html>
+ <body>
 <h1>Hiroshi Sugimoto</h1>
 <p>The dates for the ORIGIN OF ART exhibition are as follows:</p>
 <ul>
@@ -49,25 +56,36 @@
 <li>History: 29 May - 21 Aug 2011</li>
 <li>Religion: 28 Aug - 6 Nov 2011</li>
 </ul>
-
+ <boody/>
+</html>
 * Inline Elements:Examples of inline elements are
-<a>, <b>, <em>, and <img>.
-
+...
+<!DOCTYPE html >
+ <html>
+  <a>, <b>, <em>, and <img>.
+<html/>
+   ...
+   
 * Grouping Text & Elements In a Block: <div id="header"> </div> "The <div> element allows you to
 group a set of elements together in one block-level box. "
 * Grouping Text & Elements Inline: <span class="gallery">Tate Modern</span>
 * <iframe> : src, width, height, scrolling, frameborder, seamless
+<!DOCTYPE html>
+ <html>
 <iframe
 width="450"
 height="350"
 src="http://maps.google.co.uk/maps?q=moma+new+york
 &amp;output=embed">
 </iframe>
+<html/>
+  ...
 
 * <meta> : The <meta> element lives inside the <head> element and contains information about that web page.
  description, keywords, robots, author, pragma, expires, 
  * There are some characters that are used in and reserved by HTML code.
-* ![Characters](/code201/characters.JPG)
+![Characters](/code201/characters.JPG)
+
 
 ## 4. HTML Chapter 17: “HTML5 Layout” (pp.428-451)
 * The <header> and <footer> elements can be used for:
@@ -78,12 +96,15 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 * <aside> element has two purposes, depending on whether it is inside an <article> element or not.
 * <section> element groups related content together, and typically each section would have its own heading.
 * <hgroup> element is to group together a set of one or more <h1> through <h6> elements so that they are treated as one single heading.
+...
+ <!DOCTYPE html>
+ <html>
  <figure>
 <img src="images/bok-choi.jpg" alt="Bok Choi" />
 <figcaption>Bok Choi</figcaption>
 </figure>
-
-
+<html/>
+....
 ## 5. HTML Chapter 18: “Process & Design” (pp.452-475)
 * It's important to understand w XX ho your target audience is, why they would come to your site, what information they want to find and when they are likely to return.
 * Site maps allow you to plan the structure of a site.
