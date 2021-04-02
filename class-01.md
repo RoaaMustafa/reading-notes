@@ -80,7 +80,7 @@ From the Duckett HTML book:
    </html>
 ```
    
-+ Grouping Text & Elements In a Block: `<div id="header"> </div> "The <div> element allows you to group a set of elements together in one block-level box. "`
++ Grouping Text & Elements In a Block: `<div id="header"> </div>` "The` <div> `element allows you to group a set of elements together in one block-level box. "
 + Grouping Text & Elements Inline: `<span class="gallery">Tate Modern</span>`
 + `<iframe>` : `src`, `width`, `height`, `scrolling`, `frameborder`, `seamless`
 
@@ -99,9 +99,9 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 </html>
 ```
 
-+ `<meta>` : The <meta> element lives inside the <head> element and contains information about that web page.
++ `<meta>` : The` <meta>` element lives inside the <head> element and contains information about that web page.
 ` description, keywords, robots, author, pragma, expires, `
-+  There are some characters that are used in and reserved by HTML code.
++  There are some characters that are used in and reserved by` HTML` code.
  ![Characters](/code201/characters.JPG)
 
 
