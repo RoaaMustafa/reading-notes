@@ -15,11 +15,12 @@ I'm intereste in programming and software development*
 |class 3     | [read03](read03.md)  |   
 |class 4     | [read04](read04.md)  |    
 |class 5     | [read05](read05.md)  |   
-|class 6     | [read06](read06.md)  |                                                                                                  
+|class 6     | [read06](read06.md)  |
 
 ### Code 201 Reading Notes:
 |Assignments |     read code-201    |                                                  
-|----------- | ---------------------|                                  
+|----------- | ---------------------|   
+|  Class 01  |[class01](class-01.md)| 
 |  Class 1   |                      |                                            
 |  Class 2   |                      |                                           
 |  Class 3   |                      |                                                        
