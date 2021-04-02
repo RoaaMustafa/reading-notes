@@ -18,7 +18,7 @@ From the Duckett HTML book:
 * To learn HTML you need to know what tags are available for you to use, what they do, and where they can go.
 
 
-<!-->
+<!--->
 <!DOCTYPE html>
 <html>
  <head>
@@ -33,7 +33,7 @@ From the Duckett HTML book:
 <p>Here you can see another sub-heading.</p>
 </body>
 </html>
-<--->
+<-->
 
 
 <!--->
@@ -47,7 +47,7 @@ From the Duckett HTML book:
 <p>Anything within the body of a web page is displayed in the main browser window.</p>
 </body>
 </html>
-<--->
+<-->
 3. HTML Chapter 8: “Extra Markup” (p.176-199) 
 * Comments in HTML <!-- comment goes here -->
 * ID Attribute <p id="pullquote"></p>
@@ -68,7 +68,7 @@ From the Duckett HTML book:
 </ul>
  </boody>
 </html>
-<--->
+<-->
 
 *Inline Elements:Examples of inline elements are
 <!--->
@@ -77,7 +77,7 @@ From the Duckett HTML book:
  <body>
   <a>, <b>, <em>, and <img>.
    </body>
-<--->
+<-->
    
 + Grouping Text & Elements In a Block: <div id="header"> </div> "The <div> element allows you to
 group a set of elements together in one block-level box. "
@@ -97,7 +97,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 </iframe>
 </body>
 </html>
-<--->
+<-->
 
 + <meta> : The <meta> element lives inside the <head> element and contains information about that web page.
  description, keywords, robots, author, pragma, expires, 
@@ -130,7 +130,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
    </main>
   </body>
 </html>
-<--->
+<-->
  5. HTML Chapter 18: “Process & Design” (pp.452-475)
 + It's important to understand w XX ho your target audience is, why they would come to your site, what information they want to find and when they are likely to return.
 +  Site maps allow you to plan the structure of a site.
