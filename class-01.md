@@ -16,6 +16,7 @@
 * Attributes require a name and a value.
 * To learn HTML you need to know what tags are available for you to use, what they do, and where they can go.
 
+
 ...
 <!DOCTYPE html>
 <html>
@@ -29,6 +30,8 @@
 </body>
 </html>
 ...
+
+and 
 
 ...
 <!DOCTYPE html>
