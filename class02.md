@@ -39,8 +39,8 @@ meaning of acronyms, and so on.
   ### JS
   
   `<script></script> `
-  ```
-  var today= new Date{);
+  
+  `var today= new Date{);
 var hourNow = today.getHours{) ;
 var greeting;
 if (hourNow > 18) {
@@ -51,9 +51,7 @@ else if (hourNow > O) {
 greeting 'Good morning';
 else {
 greeting 'Welcome';
-document.write(greeting) ;
-```
-```
+
 var price;
 var quantity;
 var total;
@@ -62,5 +60,4 @@ quantity = 14;
 total = price * quantity;
 c02/j s/numeri c-vari ab 1 e .j s
 var el = document.getElementByid( ' cost ' ) ;
-el .textContent = '$' +total;
-```
+`
