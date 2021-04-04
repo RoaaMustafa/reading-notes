@@ -37,14 +37,23 @@ meaning of acronyms, and so on.
   
   ### CSS 
   `<link>` element can be used in an HTML document to tell the browser where to find the CSS file used to style the page.
+  
   `href` This specifies the path to the CSS file
+  
   Universal Selector `* {}`
+  
   Type Selector` h1, h2, h3 {}`
+  
   Cl ass Selector`.note {}`
+  
   ID Selector` #introduction {}`
+  
   Child Selector` li>a {}`
+  
   Descendant Selector `p a {}`
+  
   Adjacent Sibling Selector`h1+p {}`
+  
   General Sibling Selector `h1~p {}`
   
   ### JS
