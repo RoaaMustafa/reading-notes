@@ -39,4 +39,12 @@ meaning of acronyms, and so on.
   ### JS
   
   `<script></script> `
+ 1.  A script is made up of a series of statements. Each statement is like a step in a recipe.
+2. Scripts contain very precise instructions. For example, you might specify that a value must be remembered
+  creating a calculation using that value.
+3. Variables are used to temporarily store pieces of information used in the script.
+4. Arrays are special types of variables that store more than one piece of related information.
+JavaScript distinguishes between numbers (0-9), strings (text), and Boolean values (true or false).
+5. Expressions evaluate into a single value.
+6. Expressions rely on operators to calculate a value.
  
