@@ -51,7 +51,7 @@ From the Duckett HTML book:
 * Comments in HTML ```<!-- comment goes here --> ```
 * ID Attribute ``` <p id="pullquote"></p> ```
 * Class Attribute ``` <p class="important"> </p> ```
-* Block Elements : 
+
 ```
 <!DOCTYPE html>
 <html>
@@ -80,9 +80,10 @@ From the Duckett HTML book:
    </html>
 ```
    
-+ Grouping Text & Elements In a Block: `<div id="header"> </div>` "The` <div> `element allows you to group a set of elements together in one block-level box. "
-+ Grouping Text & Elements Inline: `<span class="gallery">Tate Modern</span>`
-+ `<iframe>` : `src`, `width`, `height`, `scrolling`, `frameborder`, `seamless`
+Grouping Text & Elements In a Block: `<div id="header"> </div>` 
+"The `<div> `element allows you to group a set of elements together in one block-level box. "
+ Grouping Text & Elements Inline: `<span class="gallery">Tate Modern</span>`
+`<iframe>` : `src`, `width`, `height`, `scrolling`, `frameborder`, `seamless`
 
 ```
 <!DOCTYPE html>
@@ -99,21 +100,21 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 </html>
 ```
 
-+ `<meta>` : The` <meta>` element lives inside the <head> element and contains information about that web page.
+`<meta>` : The` <meta>` element lives inside the <head> element and contains information about that web page.
 ` description, keywords, robots, author, pragma, expires, `
-+  There are some characters that are used in and reserved by` HTML` code.
+ There are some characters that are used in and reserved by `HTML` code.
  ![Characters](/code201/characters.JPG)
 
 
  4. HTML Chapter 17: “HTML5 Layout” (pp.428-451)
-+ The`<header>` and `<footer>` elements can be used for:
+The`<header>` and `<footer>` elements can be used for:
   - The main header or footer that appears at the top or bottom of every page on the site.
   - A header or footer for an individual`<article>` or `<section>` within the page.
-+ `<nav>` element is used to contain the major navigational blocks on the site such as the primary site navigation.  
-+ `<article>` element acts as a container for any section of a page that could stand alone and potentially be syndicated.
-+ `<aside>` element has two purposes, depending on whether it is inside an <article> element or not.
-+ `<section>` element groups related content together, and typically each section would have its own heading.
-+ `<hgroup>` element is to group together a set of one or more `<h1> through <h6>`elements so that they are treated as one single heading.
+`<nav>` element is used to contain the major navigational blocks on the site such as the primary site navigation.  
+ `<article>` element acts as a container for any section of a page that could stand alone and potentially be syndicated.
+ `<aside>` element has two purposes, depending on whether it is inside an <article> element or not.
+  `<section>` element groups related content together, and typically each section would have its own heading.
+  `<hgroup>` element is to group together a set of one or more `<h1> through <h6>`elements so that they are treated as one single heading.
 
 ```
  <!DOCTYPE html>
@@ -142,7 +143,7 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 
 ## From the Duckett JS book:
 1. A script is a series of instructions that the computer can follow in order to achieve a goal.
-2. Linking to a javascript file from an HTML page.
+2. Linking to a javascript file from an `HTML` page.
 ```
 <!DOCTYPE html>
 <html>
