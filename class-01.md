@@ -103,7 +103,10 @@ src="http://maps.google.co.uk/maps?q=moma+new+york
 `<meta>` : The` <meta>` element lives inside the <head> element and contains information about that web page.
 ` description, keywords, robots, author, pragma, expires, `
  There are some characters that are used in and reserved by `HTML` code.
+ 
+ 
  ![Characters](/code201/characters.JPG)
+
 
 
  4. HTML Chapter 17: “HTML5 Layout” (pp.428-451)
