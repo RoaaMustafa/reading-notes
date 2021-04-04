@@ -20,22 +20,21 @@ I'm intereste in programming and software development*
 ### Code 201 Reading Notes:
 |Assignments |     read code-201    |                                                  
 |----------- | ---------------------|   
-|  Class 01  |[class01](class-01.md)| 
-|  Class 1   |                      |                                            
-|  Class 2   |                      |                                           
-|  Class 3   |                      |                                                        
-|  Class 4   |                      |                                                      
+|  Class 01  |[class01](class-01.md)|                                             
+|  Class 02  |[class02](class02.md) |                                           
+|  Class 3   |                      |                                          
+|  Class 4   |                      |      
 |  Class 5   |                      |
-|  Class 6   |                      |                                                      
-|  Class 7   |                      |                                                      
-|  Class 8   |                      |                                                      
-|  Class 9   |                      |                                                      
-|  Class10   |                      |                                                       
-|  Class11   |                      |                                                              
-|  Class12   |                      |                                                                       
-|  Class13   |                      |                                                      
-|  Class14   |                      |                                                                  
-|  Class15   |                      |                                                      
+|  Class 6   |                      |           
+|  Class 7   |                      |   
+|  Class 8   |                      |       
+|  Class 9   |                      | 
+|  Class10   |                      |  
+|  Class11   |                      |             
+|  Class12   |                      |                               
+|  Class13   |                      |
+|  Class14   |                      |        
+|  Class15   |                      |   
 
 ### [Press To Go To My GitHub](https://github.com/RoaaMustafa)
 
