@@ -1,6 +1,55 @@
 # Read03 HTML Lists, Control Flow with JS, and the CSS Box Mode
+## HTML
+
+ #### types of lists:
+
+   `<ol> `  Ordered lists
+  
+   `<ul>` Unordered lists 
+   
+   ##### Definition lists: 
+    
+    `<dl>`   definition list 
+     
+     
+    `<dt>` definition term
+     
+     
+    `<dd>` definition content
+     
+  #####  nested list : 
+   
+   ```
+   <ul>
+<li>Mousses</li>
+<li>Pastries
+<ul>
+<li>Croissant</li>
+<li>Mille-feuille</li>
+<li>Palmier</li>
+<li>Profiterole</li>
+</ul>
+</li>
+<li>Tarts</li>
+</ul>
+```
+
+## CSS
+
+>You can specify the width, height and even limit them with a minimum and a maximum value.
+
+>Every box has a mirgin , a border & a padding ; that you also can control them by numbers or percentage.
+```
+mirgin:30px;
+border:5px;
+padding:25px;
+```
+>You can also control the text alignment `text-align:center;`, the visability of an element `visability:hidden;`, the border properties, displaying the list inline `display:inline-block;`, controlling the boxes shadows, and border corners by controling the radius.
+
 ## Java script
+
 + Using quotes inside a string using ` document.getElementByld` and `elTitle.innerHTML` 
+
 ```
 var title;
 title= "Molly's Special Offers" ;
@@ -16,6 +65,7 @@ elTitle.innerHTML =title;
 
 
 + comparing two expressions: 
+
 ```
 //Check if scores are higher than current high scores
 var comparison= (score!+ score2) > (highScorel + highScore2);
