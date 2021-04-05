@@ -22,7 +22,7 @@ I'm intereste in programming and software development*
 |----------- | ---------------------|   
 |  Class 01  |[class01](class-01.md)|                                             
 |  Class 02  |[class02](class02.md) |                                           
-|  Class 3   |                      |                                          
+|  Class 3   |[class03](class-03.md)|                                          
 |  Class 4   |                      |      
 |  Class 5   |                      |
 |  Class 6   |                      |           
