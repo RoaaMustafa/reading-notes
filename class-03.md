@@ -45,5 +45,22 @@ el .textContent = msg;
 ```
   + using if statement:
   ```
-  
-
+function congratulate() { 
+msg += ' Congratulations! ' ;
+} 
+if (score>= 50) { II If score is 50 or more
+congratulate();
+msg += 'Proceed to the next round . ' ;
+var el = document.getElementByld('answer' ) ;
+el.innerHTML = msg;
+```
+ + using if else statement:
+ ```
+ if (score >= pass) {
+msg = 'Congratulations, you passed!';
+} else {
+msg = 'Have another go!';
+}
+var el = document .getElementByld('answer');
+el .textContent = msg;
+```
