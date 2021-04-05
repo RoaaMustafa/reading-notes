@@ -48,7 +48,7 @@ padding:25px;
 
 ## Java script
 
-+ Using quotes inside a string using ` document.getElementByld` and `elTitle.innerHTML` 
+>Using quotes inside a string using ` document.getElementByld` and `elTitle.innerHTML` 
 
 ```
 var title;
@@ -56,7 +56,7 @@ title= "Molly's Special Offers" ;
 var elTitle = document.getElementByld('title') ;
 elTitle.innerHTML =title;
 ```
- + using a variable to store a boolean :   
+>using a variable to store a boolean :   
  
   ```  
  var elShip = document .getElementByid('shipping');
@@ -64,7 +64,7 @@ elTitle.innerHTML =title;
 ```
 
 
-+ comparing two expressions: 
+>comparing two expressions: 
 
 ```
 //Check if scores are higher than current high scores
@@ -73,7 +73,7 @@ var comparison= (score!+ score2) > (highScorel + highScore2);
 var el = document.getElementByid( 'answer');
 el .textContent ='New high score:'+ comparison;
 ```
-  + or by using logical And &&:
+  >or by using logical And &&:
 ```
 //Check whether user passed both rounds , store result in variable
 var passBoth = (scorel >= passl) && (score2 >= pass2);
@@ -83,7 +83,7 @@ var msg = 'Both rounds passed: ' + passBoth;
 var el = document.getElementByid( ' answer') ;
 el.textContent = msg;
 ```
-  + using logical OR `||` or Not  `!`
+  >using logical OR `||` or Not  `!`
   ```
 //Check wh ether user passed one of the two rounds. store result in vari able
 var minPass = ((scorel >= passl) I I (score2 >= pass2));
@@ -93,7 +93,7 @@ var msg = 'Resit required: ' + !(minPass);
 var el = document.getElementByld('answer');
 el .textContent = msg;
 ```
-  + using if statement:
+  >using if statement:
   ```
 function congratulate() { 
 msg += ' Congratulations! ' ;
@@ -104,7 +104,7 @@ msg += 'Proceed to the next round . ' ;
 var el = document.getElementByld('answer' ) ;
 el.innerHTML = msg;
 ```
- + using if else statement:
+>using if else statement:
  ```
  if (score >= pass) {
 msg = 'Congratulations, you passed!';
