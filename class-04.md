@@ -42,7 +42,48 @@
 
       
    ## Javascript
-   * Functions, Methods, and Objects” 
-     
-     
+   Functions, Methods, and Objects” 
+       * What is a FUNCTION : Functions let you group a series of statements together to perform a specific task.
+       1. Declarinf function
+       2. calling function
+       3. getting a single value out of a function
+       4. getting multible values out of a function
+       *Example:
+       
+       ```
+       function updateMessage() {
+      var el = document.getElementByld('message'};
+      el .textContent = msg;
+        }
+       updateMessage(};
+         ```
+ 
+   * What is an Object  : Objects group together a set of variables and functions to create a model of a something you would recognize from the real world. 
+  
+ ### 6 Reasons for Pair Programming:       
+   pair programming is the practice of two developers sharing a single workstation to interactively tackle a coding task together.
+ * How does pair programming work?
+    While there are many different styles, pair programming commonly involves two roles: the Driver and the Navigator.
+    1. The Driver is the programmer who is typing and the only one whose hands are on the keyboard.
+    2. The Navigator might also utilize their computer as a second screen to look up solutions and documentation, but should not be writing any code.
+ * Why pair program? 
+        Pair programming touches on all four skills: developers explain out loud what the code should do, listen to others’ guidance, read code that others have written, and           write code themselves. 
+    1. Greater efficiency
+    2. Engaged collaboration 
+    3. Learning from fellow students
+    4. Social skills
+    5. Job interview readiness
+    6. Work environment readiness
+      
+ ### References
+ From the Duckett HTML book:
+
+Chapter 4: Ch.4 “Links” (pp.74-93)
+Chapter 15: “Layout” (pp.358-404)
+From the Duckett JS book:
+
+Chapter 3 (first part): “Functions, Methods, and Objects” (pp.86-99 ONLY)
+Article: [6 Reasons for Pair Programming](https://www.codefellows.org/blog/6-reasons-for-pair-programming/)
+ 
+        
      
