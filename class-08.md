@@ -1,6 +1,7 @@
 
 # Read: 08 -CSS 
 ## Layout
+* **WHY?** ayout techniques allow us to take elements contained in a web page and control where they are positioned relative to their default position in normal layout flow, the     other elements around them, their parent container, or the main viewport/window. 
 * **Controlling the Position of Elements** :allow you to control the layout of a page: **normal flow**, **relative positioning**, and **absolute positioning.**
 * **positioning schemes:**
        1. Normal flow: each item to appear lower down the page `position:static`
