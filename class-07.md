@@ -32,19 +32,19 @@ return this . rooms - this .booked;{
 
 > + OBJECT CONSTRUCTOR NOTATION:
    
-   
-   ```
-   var hotel = new Object();
+  
+ ```
+  var hotel = new Object();
   hotel.name = 'Quay';
   hotel .rooms = 40 ;
   hotel . booked= 25;
   hotel.checkAvailability =function()
    return this .rooms - this .booked;{
    } ;
-    ```
+   
+   ```
  
- 
-  + PROPERTIES
+ + PROPERTIES
 
   1. `length` : Returns number of characters in the string in most cases (see note bottom-left)
   2. `toUpperCase ()` Changes string to uppercase characters
