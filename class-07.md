@@ -79,10 +79,10 @@ return this . rooms - this .booked;{
 > + **What's a table ?**
    A table represents information in a grid format. Examples of tables include financial reports, TV schedules, and sports results.
 > +  **How to create tables?**
-    +  `<table>` : element is used to create a table.
-    + `<tr>`:(The tr stands for table row.)
-    + `<td>`:(The td stands for table data.)
-    +  `<th> `: table heading
+     > `<table>` : element is used to create a table.
+     > `<tr>`:(The tr stands for table row.)
+     >  `<td>`:(The td stands for table data.)
+     >  `<th> `: table heading
 
 ## Resources 
 > [Domain Modeling](https://github.com/codefellows/domain_modeling#domain-modeling)
