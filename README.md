@@ -28,7 +28,7 @@ I'm intereste in programming and software development*
 |  Class 6   |[class06](class-06.md)|           
 |  Class 7   |[class07](class-07.md)|   
 |  Class 8   |[class08](class-08.md)|       
-|  Class 9   |                      | 
+|  Class 9   |[class09](class-09.md)| 
 |  Class10   |                      |  
 |  Class11   |                      |             
 |  Class12   |                      |                               
