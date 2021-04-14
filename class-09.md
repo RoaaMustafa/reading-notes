@@ -49,16 +49,49 @@
       4. `select `attribute can beused to indicate the option that
   
 
-
 ## CSS
 ### Lists, Tables & Forms
 Learned :
   1. Specify the type of bullet point or numbering on lists
   2. Add borders and backgrounds to table cells
   3. Control the appearance of form controls
-+ 
-
-
++ `(list style type)`: atribute that allow us to change the type of shape points.
++ `(list style image)`: add image insted of points 
++ `(list style position)`: etermine where can put the pointer outsite or insided.
++ ADD properities to the table:
+   + `width`,`padding`,`text-transform`,`letter-spacing`,`font-size`,`border-top`, `border-bottom`,`text-align`,`background-color`,`:hover`
++ **Why?** :for sure there is more we can use i just mention some of them 
++ **show the empty cell or hide them**: `border-spacing`,`border-collapse` **Why?**:to make gab between cells
++ **style text input**: `font-size``,color`,`background-color`,`border`,`border-radius`,`:focus`,`:hover`,`background-image`
++ **style submit button**:`color`,`text-shadow`,`border-bottom`,`background-color`,`:hover`
++ **Types of cursor**: `crosshair`,`pointer`,`move`
 
 ## JS
 ### Events
++ WHAT? :that action happen on the website to do some function to responde on the request of the user
++ HOW? : 
+  1. interaction will be create with event this happen when user click button to do function
+  2. the trigger that the event make the code ready to do the function
+  3. responding to the user make the function successfully done
++ Types of events:  `ui event`,`keybord event`,`mous event`,`foucs event`, `form event`,`mutation events`  
++  the event trigger the code or script: to make the event happen  
+   1. select node to make function 
+   2. then trigger it by the event after this will be stating the code to make it work 
+   3. the event handler let you know which event will occurs and for which element going to happen 
++ Tpyes of handler: `HTML EVENT HANDLERS` ,` TRADITIONAL DOM EVENT HANDLERS`,`DOM LEVEL 2 EVENT LISTENERS`
++ Normal structure of the handler:`element.event=function`
++ the event listener can handel more than one fucntion at time but they are not supported in old browser 
++ the structure of it :`element.handler(event.function.event flow)`
++ the anonymous function is to passing arguments to the handler or the listeners
++ `event flow` show us the fucntion goes through elements that are inside each other 
++ the flow is very important when we have event handler
++ event object is telling all information about the event and what element happend on it
++ if we use one event listener to more than one element it will slow down the page
++ the event objects have methods that can change the behavior.
+
+## Resources:
+1.From the Duckett HTML book: 
++ Chapter 7: “Forms” (p.144-175)
++ Chapter 14: “Lists, Tables & Forms” (pp.330-357)
+2. From the Duckett JS book:
+  + Chapter 6: “Events” (pp.243-292)
