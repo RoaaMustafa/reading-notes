@@ -21,13 +21,14 @@ The stack: javascript interpreter procced one line of code at a time,when statem
    + fileNumber :Name of the JavaScript 
    + fillineNumber :Line number of error
  + There are seven types of built-in error objects in JavaScript.
-    1.Error :Generic error - the other errors are all based upon this error
-    2.Syntax Error :Syntax has not been followed
-    3.ReferenceError:Tried to reference a variable that is not declared/within scope
-    4.TypeError :An unexpected data type that cannot be coerced
+ 
+    1. Error :Generic error - the other errors are all based upon this error
+    2. Syntax Error :Syntax has not been followed
+    3. ReferenceError:Tried to reference a variable that is not declared/within scope
+    4. TypeError :An unexpected data type that cannot be coerced
     5. Range Error: Numbers not in acceptable range
-    6.URI Error: encodeURI ().decodeURI(),and similar methods used incorrectly
-    7.EvalError: eval () function used incorrectly
+    6. URI Error: encodeURI ().decodeURI(),and similar methods used incorrectly
+    7. EvalError: eval () function used incorrectly
    
 HOW TO DEAL WITH ERRORS
 1: DEBUG THE SCRIPT TO FIX ERRORS
