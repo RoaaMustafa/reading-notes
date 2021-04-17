@@ -30,7 +30,7 @@ I'm intereste in programming and software development*
 |  Class 8   |[class08](class-08.md)|       
 |  Class 9   |[class09](class-09.md)| 
 |  Class10   |[class10](class-10.md)|  
-|  Class11   |                      |             
+|  Class11   |[class11](class-11.md)|             
 |  Class12   |                      |                               
 |  Class13   |                      |
 |  Class14   |                      |        
