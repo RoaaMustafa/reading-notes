@@ -46,4 +46,9 @@ width: 300px;}
 2. On-page techniques are the methods you can use on your web pages to improve their rating in search engines.
 3. Off-Page Techniques Getting other sites to link to you is just as important as on-page techniques. Search engines help determine how to rank your site by looking at the number of other sites that link to yours.
 
- 
+## Resources:
+From the Duckett HTML book:
+
+Chapter 16: “Images” (pp.406-427)
+Chapter 19: “Practical Information” (476-492)
+
