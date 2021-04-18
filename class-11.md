@@ -46,9 +46,32 @@ width: 300px;}
 2. On-page techniques are the methods you can use on your web pages to improve their rating in search engines.
 3. Off-Page Techniques Getting other sites to link to you is just as important as on-page techniques. Search engines help determine how to rank your site by looking at the number of other sites that link to yours.
 
+### Video and Audio APIs
+1. To embed video and audio in web pages we can apply them to your page by using the `<video> `and `<audio>` elements.
+
+2. To control video and audio players we used `HTMLMediaElement.play()` and `HTMLMediaElement .pause()`.
+
+3. We need to wrap audio and video elements in div to style them if needed.
+
+4. Video elements contains two `<source>` so different format can be loaded depending on the browser.
+
+5. There is for `<button>` to control video and audio play, pause, stop and fast forward.
+
+6. `<span>` containing the elapsed time in minutes and seconds.
+
+7. Control visibility, opacity of videos and audios by CSS.
+
+8. Implementing videos and audios the JavaScript using by:
+   + creat new JavaScript file in the same directory.
+   + insert specific code.
+9. We use event listener to stop and play the video or the audio (ex.` play.addEventListener(action, function)`).
+
+10. We can move video and audio forward and backward, fixing play and pause by (fwd and rwd).
+
 ## Resources:
 From the Duckett HTML book:
 
 Chapter 16: “Images” (pp.406-427)
 Chapter 19: “Practical Information” (476-492)
+[Video and Audio APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs)
 
