@@ -12,14 +12,12 @@
 2- Cookies** are included with every HTTP request, thereby sending data unencrypted over the internet (unless your entire web application is served over SSL)
 
 3- Cookies are limited to about 4 KB of data — enough to slow down your application
+
+
++ userData: is allows web pages to store up to 64 KB of data per domain, in a hierarchical XML-based structure.
  
 
- 
-
-### userData: is allows web pages to store up to 64 KB of data per domain, in a hierarchical XML-based structure.
- 
-
-### Gears: an open-source browser plugin In 2007, Google launched aimed at providing additional capabilities in browsers
++ Gears: an open-source browser plugin In 2007, Google launched aimed at providing additional capabilities in browsers
  
 
 + Gears provide: 
