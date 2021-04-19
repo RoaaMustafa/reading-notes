@@ -63,13 +63,17 @@ var chart = new Chart(ctx, {
  + Colors:
    +` fillStyle = color`:Sets the style used when filling shapes.
    + `strokeStyle = color`:Sets the style for shapes' outlines.
-   + 
+  
   #### REFERENCES
   [Chart.js](https://www.chartjs.org/docs/2.9.4/general/options.html)
   
   [basic usage of canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage)
   
   [Drawing shapes with canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes)
+  
+  [Applying styles and colors](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Applying_styles_and_colors)
+  
+  [Drawing text](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_text)
   
   
   
