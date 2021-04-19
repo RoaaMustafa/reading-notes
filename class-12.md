@@ -1,6 +1,6 @@
 # Read: 12 - Docs for the HTML <canvas> Element & Chart.js
   #### Creating a Chart
-  It's easy to get started with Chart.js. All that's required is the script included in your page along with a single `<canvas>` node to render the chart.
+   to get started with Chart.js. All that's required is the script included in your page along with a single `<canvas>` node to render the chart.
   ####  after cloning the Chart.js repo to a local directory, and navigating to that directory in the command line, 
   we can run the following: `> npm install` This will install the local development dependencies for Chart.js.
   #### First, we need to have a canvas in our page. `<canvas id="myChart"></canvas>`
