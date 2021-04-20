@@ -8,9 +8,7 @@ I read about Transform property it is usefull in css to reposition and set amove
 
 Also the transition property and there are many popular transitional properties include the following:
 
-
 background,colorbackground-positionborder,color,border,widthborder ,spacingbottom , clip  ,color ,crop  ,font ,sizefont,  weightheight, and more .
-
 
 Also there are properity called :hover it's usefull to buuton styling.
 
