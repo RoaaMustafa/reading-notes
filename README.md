@@ -18,23 +18,24 @@ I'm intereste in programming and software development*
 |class 6     | [read06](read06.md)  |
 
 ### Code 201 Reading Notes:
-|Assignments |     read code-201    |                                                  
-|----------- | ---------------------|   
-|  Class 01  |[class01](class-01.md)|                                             
-|  Class 02  |[class02](class02.md) |                                           
-|  Class 3   |[class03](class-03.md)|                                          
-|  Class 4   |[class04](class-04.md)|      
-|  Class 5   |[class05](class-05.md)|
-|  Class 6   |[class06](class-06.md)|           
-|  Class 7   |[class07](class-07.md)|   
-|  Class 8   |[class08](class-08.md)|       
-|  Class 9   |[class09](class-09.md)| 
-|  Class10   |[class10](class-10.md)|  
-|  Class11   |[class11](class-11.md)|             
-|  Class12   |[class12](class-12.md)|                               
-|  Class13   |[class13](class-13.md)|
-|  Class14   |                      |        
-|  Class15   |                      |   
+|Assignments |     read code-201      |                                                  
+|----------- |------------------------|   
+|  Class 01  |[class01](class-01.md)  |                                             
+|  Class 02  |[class02](class02.md)   |                                           
+|  Class 3   |[class03](class-03.md)  |                                          
+|  Class 4   |[class04](class-04.md)  |      
+|  Class 5   |[class05](class-05.md)  |
+|  Class 6   |[class06](class-06.md)  |           
+|  Class 7   |[class07](class-07.md)  |   
+|  Class 8   |[class08](class-08.md)  |       
+|  Class 9   |[class09](class-09.md)  | 
+|  Class10   |[class10](class-10.md)  |  
+|  Class11   |[class11](class-11.md)  |             
+|  Class12   |[class12](class-12.md)  |                               
+|  Class13   |[class13](class-13.md)  |
+|  Class14a  |[class14a](class-14a.md)|        
+|  Class14b  |[class14b](class-14b.md)|
+|  Class15   |[class15](class-15.md)  |
 
 ### [Press To Go To My GitHub](https://github.com/RoaaMustafa)
 
