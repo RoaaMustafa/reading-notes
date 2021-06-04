@@ -8,8 +8,11 @@ After graduation, I was selected to join the ICT upskilling program in associati
 I'm intereste in programming and software development*
 
 Code 102 - Intro to Software Development
+
 Code 201 - Foundations of Software Development
+
 Code 301 - Intermediate Software Development
+
 Code 401 - Advanced Software Development
 
 ### Code 102(Intro to Software Development) Reading Notes:
@@ -59,7 +62,7 @@ Code 401 - Advanced Software Development
 |  Class11   |[class11](class301-11.md)  |             
 |  Class12   |[class12](clas301-12.md)   |                               
 |  Class13   |[class13](class301-13.md)  |
-|  Class14   |[class14a](class301-14.md) |        
+|  Class14   |[class14](class301-14.md)  |        
 |  Class15   |[class15](class301-15.md)  |
 
 ### [Press To Go To My GitHub](https://github.com/RoaaMustafa)
