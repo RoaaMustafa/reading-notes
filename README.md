@@ -44,10 +44,10 @@ Code 401 - Advanced Software Development
 |  Class15   |[class15](class-15.md)  |
 
 ### Code 301(Intermediate Software Development) Reading Notes:
-|Assignments |     read code-301      |                                                  
-|----------- |------------------------|   
+|Assignments |     read code-301         |                                                  
+|----------- |---------------------------|   
 |  Class 01  |[class01](class301-01.md)  |                                             
-|  Class 02  |[class02](class301-02.md)   |                                           
+|  Class 02  |[class02](class301-02.md)  |                                           
 |  Class 3   |[class03](class301-03.md)  |                                          
 |  Class 4   |[class04](class301-04.md)  |      
 |  Class 5   |[class05](class301-05.md)  |
@@ -57,9 +57,9 @@ Code 401 - Advanced Software Development
 |  Class 9   |[class09](class301-09.md)  | 
 |  Class10   |[class10](class301-10.md)  |  
 |  Class11   |[class11](class301-11.md)  |             
-|  Class12   |[class12](clas301-12.md)  |                               
+|  Class12   |[class12](clas301-12.md)   |                               
 |  Class13   |[class13](class301-13.md)  |
-|  Class14a  |[class14a](class301-14.md)|        
+|  Class14   |[class14a](class301-14.md) |        
 |  Class15   |[class15](class301-15.md)  |
 
 ### [Press To Go To My GitHub](https://github.com/RoaaMustafa)
