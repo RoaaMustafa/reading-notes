@@ -15,7 +15,13 @@ Code 301 - Intermediate Software Development
 
 Code 401 - Advanced Software Development
 
+## Things I want to know more about:
+
+
+
+
 ### Code 102(Intro to Software Development) Reading Notes:
+
 |Assignments |     read code-102    |                                                                                                                            
 |----------- | ---------------------|                                                                                                                            
 |class 1     | [read01](read01.md)  |                                                                                                                            
@@ -27,6 +33,7 @@ Code 401 - Advanced Software Development
 |class 6     | [read06](read06.md)  |                                                                                                                            
 
 ### Code 201(Foundations of Software Development) Reading Notes:
+
 |Assignments |     read code-201      |                                                                                                                            
 |----------- |------------------------|                                                                                                                            
 |  Class 01  |[class01](class-01.md)  |                                                                                                                            
@@ -47,6 +54,7 @@ Code 401 - Advanced Software Development
 |  Class15   |[class15](class-15.md)  |                                                                                                                      
 
 ### Code 301(Intermediate Software Development) Reading Notes:
+
 |Assignments |     read code-301         |                                                                                                              
 |----------- |---------------------------|                                                                                                               
 |  Class 01  |[class01](class301-01.md)  |                                                               
