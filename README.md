@@ -62,7 +62,7 @@ Code 401 - Advanced Software Development
 |  Class 3   |[class03](../code 301/class301-03.md)  |                                                                                                               
 |  Class 4   |[class04](../code 301/class301-04.md)  |                                                                                                               
 |  Class 5   |[class05](../code 301/class301-05.md)  |                                                                                                               
-|  Class 6   |[class06](../code 301/class301-06.md)  |                                                                                                               
+|  Class 6   |[class06](.../code 301/class301-06.md)  |                                                                                                               
 |  Class 7   |[class07](../code 301/class301-07.md)  |                                                                                                                
 |  Class 8   |[class08](../code 301/class301-08.md)  |                                                                                                                     
 |  Class 9   |[class09](../code 301/class301-09.md)  |                                                                                                               
