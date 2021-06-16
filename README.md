@@ -22,20 +22,20 @@ Code 401 - Advanced Software Development
 
 ### Code 102(Intro to Software Development) Reading Notes:
 
-|Assignments |     read code-102    |                                                                                                                            
-|----------- | ---------------------|                                                                                                                            
-|class 1     | [read01](code 102/read01.md)  |                                                                                                                            
-|class 2 a   | [read02a](code 102/read02a.md)|                                                                                                                            
-|class 2 b   | [read0b](code 102/read02b.md) |                                                                                                                            
-|class 3     | [read03](code 102/read03.md)  |                                                                                                                            
-|class 4     | [read04](code 102/read04.md)  |                                                                                                                            
-|class 5     | [read05](code 102/read05.md)  |                                                                                                                            
-|class 6     | [read06](code 102/read06.md)  |                                                                                                                            
+|Assignments |     read code-102            |                                                                                                                            
+|----------- | -----------------------------|                                                                                                                            
+|class 1     |[read01](code 102/read01.md)  |                                                                                                                            
+|class 2 a   |[read02a](code 102/read02a.md)|                                                                                                                            
+|class 2 b   |[read0b](code 102/read02b.md) |                                                                                                                            
+|class 3     |[read03](code 102/read03.md)  |                                                                                                                            
+|class 4     |[read04](code 102/read04.md)  |                                                                                                                            
+|class 5     |[read05](code 102/read05.md)  |                                                                                                                            
+|class 6     |[read06](code 102/read06.md)  |                                                                                                                            
 
 ### Code 201(Foundations of Software Development) Reading Notes:
 
-|Assignments |     read code-201      |                                                                                                                            
-|----------- |------------------------|                                                                                                                            
+|Assignments |     read code-201              |                                                                                                                            
+|----------- |--------------------------------|                                                                                                                            
 |  Class 01  |[class01](code201/class-01.md)  |                                                                                                                            
 |  Class 02  |[class02](code201/class02.md)   |                                                                                                                      
 |  Class 3   |[class03](code201/class-03.md)  |                                                                                                                      
@@ -55,8 +55,8 @@ Code 401 - Advanced Software Development
 
 ### Code 301(Intermediate Software Development) Reading Notes:
 
-|Assignments |     read code-301         |                                                                                                              
-|----------- |---------------------------|                                                                                                               
+|Assignments |     read code-301                  |                                                                                                              
+|----------- |------------------------------------|                                                                                                               
 |  Class 01  |[class01](code 301/class301-01.md)  |                                                               
 |  Class 02  |[class02](code 301/class301-02.md)  |                                                                                                               
 |  Class 3   |[class03](code 301/class301-03.md)  |                                                                                                               
