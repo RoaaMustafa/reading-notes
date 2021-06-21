@@ -15,10 +15,6 @@ Code 301 - Intermediate Software Development
 
 Code 401 - Advanced Software Development
 
-## Things I want to know more about:
-
-
-
 
 ### Code 102(Intro to Software Development) Reading Notes:
 
@@ -68,7 +64,7 @@ Code 401 - Advanced Software Development
 |  Class 9   |[class09](code 301/class301-09.md)  |                                                                                                               
 |  Class10   |[class10](code 301/class301-10.md)  |                                                                                                
 |  Class11   |[class11](code 301/class301-11.md)  |                                                                                                               
-|  Class12   |[class12](code 301/clas301-12.md)   |                                                
+|  Class12   |[class12](code 301/class301-12.md)  |                                                
 |  Class13   |[class13](code 301/class301-13.md)  |                                                                                                               
 |  Class14   |[class14](code 301/class301-14.md)  |                                                                                                               
 |  Class15   |[class15](code 301/class301-15.md)  |                                                                                                               
