@@ -67,7 +67,7 @@ Code 401 - Advanced Software Development
 |  Class12   |[class12](code 301/class301-12.md)  |                                                
 |  Class13   |[class13](code 301/class301-13.md)  |                                                                                                               
 |  Class14   |[class14](code 301/class301-14.md)  |                                                                                                               
-|  Class15   |[class15](code 301/class301-15.md)  |                                                                                                               
+|  Class15   |[class15](code 301/no_reading.md)  |                                                                                                               
 
 ### [Press To Go To My GitHub](https://github.com/RoaaMustafa)
 
