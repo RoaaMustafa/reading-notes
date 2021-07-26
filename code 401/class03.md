@@ -35,3 +35,10 @@ open() has a single required argument that is the path to the file. open() has a
 +  Text files
       +  *Buffered binary files
       +  *Raw binary files
+
+### [Exceptions in Python](https://realpython.com/python-exceptions/)
+
+A Python program terminates as soon as it encounters an error. In Python, an error can be a syntax error or an exception
+**Exceptions versus Syntax Errors**
++ `Syntax errors `occur when the parser detects an incorrect statement. 
++ `exception error:` This type of error occurs whenever syntactically correct Python code results in an error.
