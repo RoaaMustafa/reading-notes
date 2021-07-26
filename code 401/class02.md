@@ -39,7 +39,8 @@ If the base case is not reached or not defined, then the stack overflow problem 
 There are two types of recursion (direct & indirect)
 
 Recursion provides a clean and simple way to write code.
- (Links to an external site.)Python Modules
+
+ ### [Python Modules] (https://realpython.com/python-modules-packages/)
 There are actually three different ways to define a module in Python:
 
 A module can be written in Python itself.
@@ -48,5 +49,6 @@ A module can be written in C and loaded dynamically at run-time, like the re (re
 
 A built-in module is intrinsically contained in the interpreter, like the itertools module.
 
- (Links to an external site.)pytest
+
+ ### [pytest] (https://docs.pytest.org/en/latest/)
 The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries.
