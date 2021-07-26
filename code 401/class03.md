@@ -28,8 +28,8 @@ open() has a single required argument that is the path to the file. open() has a
 +  for example : file = open(‘dog_breeds.txt’)
 
 +  there are two ways that you can use to ensure that a file is closed properly :
-           +  *use the try-finally block:
-           +  *use the with statement
+      +  *use the try-finally block:
+      +  *use the with statement
 
 +  There are three different categories of file objects:
 +  Text files
