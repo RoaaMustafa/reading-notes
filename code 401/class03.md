@@ -42,3 +42,12 @@ A Python program terminates as soon as it encounters an error. In Python, an err
 **Exceptions versus Syntax Errors**
 + `Syntax errors `occur when the parser detects an incorrect statement. 
 + `exception error:` This type of error occurs whenever syntactically correct Python code results in an error.
+
+**Raising an Exception**
+
+We can use` raise `to throw an exception if a condition occurs. The statement can be complemented with a custom exception.
+
+
+**The AssertionError Exception**
+Instead of waiting for a program to crash midway, you can also start by making an assertion in Python. We `assert` that a certain condition is met. If this condition turns out to be `True`, then that is excellent! The program can continue. If the condition turns out to be `False`, you can have the program throw an AssertionError exception.
+
