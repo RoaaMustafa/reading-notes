@@ -70,3 +70,9 @@ You can anticipate multiple exceptions and differentiate how the program should 
 In Python, using the `else` statement, you can instruct a program to execute a certain block of code only in the absence of exceptions.
 
 ![try_except](https://files.realpython.com/media/try_except_else.703aaeeb63d3.png)
+
+**Cleaning Up After Using `finally`**
+
+Imagine that you always had to implement some sort of action to clean up after executing your code. Python enables you to do so using the `finally `clause.
+
+
