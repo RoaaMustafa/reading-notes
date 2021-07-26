@@ -40,7 +40,7 @@ There are two types of recursion (direct & indirect)
 
 Recursion provides a clean and simple way to write code.
 
- ### [Python Modules] (https://realpython.com/python-modules-packages/)
+ ### [Python Modules](https://realpython.com/python-modules-packages/)
 There are actually three different ways to define a module in Python:
 
 A module can be written in Python itself.
@@ -50,5 +50,5 @@ A module can be written in C and loaded dynamically at run-time, like the re (re
 A built-in module is intrinsically contained in the interpreter, like the itertools module.
 
 
- ### [pytest] (https://docs.pytest.org/en/latest/)
+ ### [pytest](https://docs.pytest.org/en/latest/)
 The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries.
