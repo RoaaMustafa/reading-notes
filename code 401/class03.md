@@ -48,6 +48,25 @@ A Python program terminates as soon as it encounters an error. In Python, an err
 We can use` raise `to throw an exception if a condition occurs. The statement can be complemented with a custom exception.
 
 
+
 **The AssertionError Exception**
+
+
 Instead of waiting for a program to crash midway, you can also start by making an assertion in Python. We `assert` that a certain condition is met. If this condition turns out to be `True`, then that is excellent! The program can continue. If the condition turns out to be `False`, you can have the program throw an AssertionError exception.
 
+
+**The try and except Block: Handling Exceptions**
+
+The try and except block in Python is used to catch and handle exceptions. Python executes code following the try statement as a “normal” part of the program. The code that follows the except statement is the program’s response to any exceptions in the preceding try clause. useful notes about try and except
+
+A try clause is executed up until the point where the first exception is encountered.
+
+Inside the except clause, or the exception handler, you determine how the program responds to the exception.
+
+You can anticipate multiple exceptions and differentiate how the program should respond to them.
+
+**The `else `Clause**
+
+In Python, using the `else` statement, you can instruct a program to execute a certain block of code only in the absence of exceptions.
+
+![try_except](https://files.realpython.com/media/try_except_else.703aaeeb63d3.png)
