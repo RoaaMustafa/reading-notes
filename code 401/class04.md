@@ -6,8 +6,8 @@ Python is an object oriented programming language.
 Almost everything in Python is an object, with its properties and methods.
 
 A Class is like an object constructor, or a "blueprint" for creating objects.
-
-`
+ 
+  ```
 Create a class named MyClass, with a property named x:
 class MyClass:
   x = 5
@@ -15,7 +15,9 @@ class MyClass:
 Now we can use the class named MyClass to create objects:
 
 p1 = MyClass()
-print(p1.x)`
+print(p1.x)
+   ```
+
 
 The `__init__()` Function The examples above are classes and objects in their simplest form, and are not really useful in real life applications.
 
@@ -27,7 +29,8 @@ Use the `__init__()` function to assign values to object properties, or other op
 
 Create a class named Person, use the `__init__()` function to assign values for name and age:
 
-`class Person:
+
+   ``` class Person:
   def `__init__`(self, name, age):
     self.name = name
     self.age = age
@@ -35,7 +38,9 @@ Create a class named Person, use the `__init__()` function to assign values for 
 p1 = Person("John", 36)
 
 print(p1.name)
-print(p1.age)`
+print(p1.age)  
+``` 
+
 
 ### [Thinking Recursively in Python:](https://realpython.com/python-thinking-recursively/)
 
@@ -66,7 +71,7 @@ Method of attachment; Adaptability of use; Intent of the buyer and the seller in
 
 Example :
 
-`def only_odd_mul(x, y):
+``` def only_odd_mul(x, y):
    if x%2 and y%2:
        return x * y
    else:
@@ -83,5 +88,5 @@ def inc(x):
 
 
 def test_answer():
-    assert inc(3) == 5`
+    assert inc(3) == 5 ```
  
