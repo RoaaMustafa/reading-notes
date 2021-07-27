@@ -1,5 +1,5 @@
 ## Read 04
-### [lasses and Objects](https://www.learnpython.org/en/Classes_and_Objects)
+## [Classes and Objects](https://www.learnpython.org/en/Classes_and_Objects)
 
 Python is an object oriented programming language.
 
@@ -42,7 +42,7 @@ print(p1.age)
 ``` 
 
 
-### [Thinking Recursively in Python:](https://realpython.com/python-thinking-recursively/)
+## [Thinking Recursively in Python:](https://realpython.com/python-thinking-recursively/)
 
 Along the way on your programming journey, there are a few milestones that you need to conquer to advance ahead. 
 For example, getting comfortable with classes, understanding pointers, master the art of functionalizing your code, 
@@ -59,7 +59,7 @@ Steps to train your mind to think recursively:
 
 ![image](https://files.realpython.com/media/state_3.3e8a68c4fde5.png)
 
-### [Pytest Fixtures and Coverage](https://www.linuxjournal.com/content/python-testing-pytest-fixtures-and-coverage)
+## [Pytest Fixtures and Coverage](https://www.linuxjournal.com/content/python-testing-pytest-fixtures-and-coverage)
 
 What Does Fixtures Mean? Fixtures, in the context of insurance, are movable or personal property attached to an immovable property that they become a part of the immovable or real property and are covered under a real estate insurance policy.
 
