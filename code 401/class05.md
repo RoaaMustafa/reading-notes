@@ -37,7 +37,7 @@ Without a dummy head (refer to the top singly linked list in the following diagr
 With a dummy head (bottom one). Dummy headers are often used because they help with the implementation.
 
 ## creation linked list
-``` class Node:
+   ```   class Node:
     def __init__(self, dataval=None):
         self.dataval = dataval
         self.nextval = None
@@ -55,7 +55,7 @@ list1.headval.nextval = e2
 
 # Link second Node to third node
 e2.nextval = e3
-```
+   ```
 
 
 
