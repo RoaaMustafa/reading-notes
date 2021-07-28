@@ -9,6 +9,9 @@ A Linked List is a sequence of Nodes that are connected/linked to each other. Th
 Linked List -
 A data structure that contains nodes that links/points to the next node in the list.
 
+
+Terminologies:
+
 Singly - 
 Singly refers to the number of references the node has. A Singly linked list means that there is only one reference, and the reference points to the Next node in a linked list.
 
@@ -27,4 +30,13 @@ The Head is a reference of type Node to the first node in a linked list.
 Current -
 The Current is a reference of type Node to the node that is currently being looked at. When traversing, you create a new Current variable at the Head to guarantee you are starting from the beginning of the linked list.
 
+
+Implementations: There are usually two forms of linked list:
+
+Without a dummy head (refer to the top singly linked list in the following diagram), or
+With a dummy head (bottom one). Dummy headers are often used because they help with the implementation.
+
 ![linked-list](https://i.ytimg.com/vi/HNCMqOVj-VA/maxresdefault.jpg)
+
+
+![memory-allocation](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
