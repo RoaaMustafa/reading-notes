@@ -41,4 +41,4 @@ With a dummy head (bottom one). Dummy headers are often used because they help w
 
 ![memory-allocation](https://miro.medium.com/max/2400/1*G43FVT5xJ1n1QDKVNZUxXQ.jpeg)
 
-![bbigO](https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996)
+![bbigO](https://miro.medium.com/max/2400/1*FC0XX0-9Vx7yCS0dTS2Zrw.jpeg)
