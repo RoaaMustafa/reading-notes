@@ -27,3 +27,4 @@ The Head is a reference of type Node to the first node in a linked list.
 Current -
 The Current is a reference of type Node to the node that is currently being looked at. When traversing, you create a new Current variable at the Head to guarantee you are starting from the beginning of the linked list.
 
+![linked-list](https://i.ytimg.com/vi/HNCMqOVj-VA/maxresdefault.jpg)
