@@ -41,4 +41,16 @@ With a dummy head (bottom one). Dummy headers are often used because they help w
 
 ![memory-allocation](https://miro.medium.com/max/2400/1*G43FVT5xJ1n1QDKVNZUxXQ.jpeg)
 
+
+ ###  Big O equations to remember are O(1) and O(n).
+ 
+ + An O(1) function takes constant time, which is to say that it doesn’t matter how many elements we have, or how huge our input is: it’ll always take the same amount of time and memory to run our algorithm.
+ + 
+ + An O(n) function is linear, which means that as our input grows (from ten numbers, to ten thousand, to ten million), the space and time that we need to run that algorithm grows linearly.
+ 
+
 ![bbigO](https://miro.medium.com/max/2400/1*FC0XX0-9Vx7yCS0dTS2Zrw.jpeg)
+
+
+
+![comparassion](https://miro.medium.com/max/2400/1*cUehR5S18XSoVLaPNfNzlA.jpeg)
