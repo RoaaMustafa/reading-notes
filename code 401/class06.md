@@ -110,3 +110,17 @@ Dependency or dependent means relying on something for support
 **Dependency Injection:** is a technique whereby one object (or static method) supplies the dependencies of another object. A dependency is an object that can be used (a service).
 
 **Dependency Injection :** transferring the task of creating the object to someone else and directly using the dependency
+
+#### **three types of dependency injection:**
+
+**constructor injection:** the dependencies are provided through a class constructor.
+
+**setter injection :** the client exposes a setter method that the injector uses to inject the dependency.
+
+**interface injection :** the dependency provides an injector method that will inject the dependency into any client passed to it. Clients must implement an interface that exposes a setter method that accepts the dependency.
+
+**dependency injection’s responsibility to:**
+
+  +Create the objects
+
+  +Know which classes require those objects
