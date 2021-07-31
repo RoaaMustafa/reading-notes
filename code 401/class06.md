@@ -8,7 +8,7 @@ The random module provides access to functions that support many operations. Per
 
 We want the computer to pick a random number in a given range Pick a random element from a list, pick a random card from a deck, flip a coin etc. 
 
-**Random functions : **
+**Random functions :**
 
 The Random module contains some very useful functions.
 
@@ -61,7 +61,7 @@ import random
 for i in range(3):
     print random.randrange(0, 101, 5)
     
-    ```
+ ```
     
 
 
