@@ -1,6 +1,6 @@
 ## Readings: Game of Greed 1
 
-**What ? **
+**What ?**
 
 The random module provides access to functions that support many operations. Perhaps the most important thing is that it allows you to generate random numbers.
 
