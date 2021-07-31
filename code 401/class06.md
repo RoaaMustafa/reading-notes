@@ -64,7 +64,7 @@ import random
 for i in range(3):
     print random.randrange(0, 101, 5)
     
- ```
+```
     
 ### [What is Risk Analysis](https://www.edureka.co/blog/risk-analysis-in-software-testing/)
 
