@@ -67,3 +67,25 @@ List comprehensions provide a concise way to create lists.
      >>> [x.upper() for x in ["a","b","c"]]
      ['A', 'B', 'C']
 ```
+
+#### Print numbers only from a given string:
+```
+string = "Hello 12345 World"
+numbers = [x for x in string if x.isdigit()]
+print numbers
+
+>> ['1', '2', '3', '4', '5']
+```
+Change x.isdigit() to x.isalpha() if you don’t want any numbers.
+
+#### Parsing a file using list comprehension:
+```
+# Then create the filter by using list comprehension:
+
+fh = open("test.txt", "r")
+
+result = [i for i in fh if "line3" in i]
+
+print result
+```
+Output: [‘this is line3‘]
