@@ -18,7 +18,7 @@ List comprehensions provide a concise way to create lists.
            [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     ```
    
-    #### Create a list using loops and list comprehension:
+   #### Create a list using loops and list comprehension:
     
     
   ```
@@ -38,23 +38,32 @@ List comprehensions provide a concise way to create lists.
      [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
   ```
     
-    #### Multiplying parts of a list:
-    
-    ```
+   #### Multiplying parts of a list:
+   
+  ```
         list1 = [3,4,5]
  
          multiplied = [item*3 for item in list1] 
  
          print multiplied 
          [9,12,15]
-    ```
+  ```
     
-    #### Show the first letter of each word:
+   #### Show the first letter of each word:
     
-    ```
+  ```
         listOfWords = ["this","is","a","list","of","words"]
 
         items = [ word[0] for word in listOfWords ]
 
         print items
-    ```
+  ```
+
+#### Lower/Upper case converter:
+ ```
+     >>> [x.lower() for x in ["A","B","C"]]
+     ['a', 'b', 'c']
+
+     >>> [x.upper() for x in ["a","b","c"]]
+     ['A', 'B', 'C']
+```
