@@ -48,3 +48,13 @@ List comprehensions provide a concise way to create lists.
          print multiplied 
          [9,12,15]
     ```
+    
+    #### Show the first letter of each word:
+    
+    ```
+        listOfWords = ["this","is","a","list","of","words"]
+
+        items = [ word[0] for word in listOfWords ]
+
+        print items
+    ```
