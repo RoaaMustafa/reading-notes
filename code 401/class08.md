@@ -4,6 +4,8 @@
 
 List comprehensions provide a concise way to create lists.
 
+![list-comprehensions](https://www.freecodecamp.org/news/content/images/size/w2000/2021/07/list-comprehension-1.png)
+
 #### Syntax
 `new_list = [expression(i) for i in old_list if filter(i)]
 `
