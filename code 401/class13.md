@@ -7,7 +7,10 @@
 + Scikit-learn is a powerful Python module for machine learning.
 
 + It contains function for regression, classification, clustering, model selection and dimensionality reduction.
-
+Simple Linear Regression
+Multiple Linear Regression
+Polynomial Regression
+Underfitting and Overfitting
 
 #### The first step is to import the required Python libraries into Ipython Notebook.
 
