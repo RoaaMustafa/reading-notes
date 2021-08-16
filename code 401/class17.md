@@ -79,8 +79,8 @@ Disallow:/
 + Data Center Proxies, if you need a large number of IP Address and faster proxies, larger pools of IPs. They are cheaper than residential proxies and coulde be detected easily.
 + Residential Proxies, if you are making a huge number of requests to websites that block to actively. These are very expensive (and could be slower, as they are  real devices). Try everything else before getting a residential proxy.
 
-**Most browsers sends more headers to the websites than just the User-Agent. For example, here is a set of headers a browser sent to Scrapeme.live (Our Web Scraping Test Site). It would be ideal to send these common request headers too.
-**
+**Most browsers sends more headers to the websites than just the User-Agent. For example, here is a set of headers a browser sent to Scrapeme.live (Our Web Scraping Test Site). It would be ideal to send these common request headers too.**
+
 ### The most basic ones are:
 
 + User-Agent
