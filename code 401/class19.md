@@ -160,6 +160,10 @@ disk_usage() returns a tuple with the total space, the amount currently being us
 
 
 
+## Watchdog
+Python API library and shell utilities to monitor file system events.
+You can use pip to install watchdog quickly and easily:
 
+`$ pip install watchdog`
 
 
