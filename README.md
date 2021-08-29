@@ -93,13 +93,7 @@ Code 401 - Advanced Software Development
 |  Class 16   |[class16](code 401/class16.md) |                   
 |  Class 17   |[class17](code 401/class17.md) |                   
 |  Class 18   |[class18](code 401/class18.md) |                   
-|  Class 19   |[class19](code 401/class19.md) |                   
-|  Class 20   |[class20](code 401/class20.md) |                   
-|  Class 21   |[class21](code 401/class21.md) |                   
-|  Class 22   |[class22](code 401/class22.md) |                   
-|  Class 23   |[class23](code 401/class23.md) |                   
-|  Class 24   |[class24](code 401/class24.md) |                   
-|  Class 25   |[class25](code 401/class25.md) |                   
+|  Class 19   |[class19](code 401/class19.md) |                                   
 |  Class 26   |[class26](code 401/class26.md) |                   
 |  Class 27   |[class27](code 401/class27.md) |                   
 |  Class 28   |[class28](code 401/class28.md) |                   
