@@ -53,3 +53,41 @@ class MyModelName(models.Model):
 
 
 `help_text='Enter field documentation'` — provides a text label to display to help users
+
+### Metadata
+You can declare model-level metadata for your Model by declaring class Meta, as shown.
+  ```
+    class Meta:
+    ordering = ['-my_field_name']
+  ```
+    
+    **__str__()** to return a human-readable string for each object. 
+    
+   ## Defining the LocalLibrary Models
+   
+   `from django.db import models `
++ Copy the Genre model code shown below and paste it into the bottom of your models.py file.
++ The Book model represents all information about an available book in a general sense, but not a particular physical "instance" or "copy" available for loan. The model uses a CharField to represent the book's title and isbn
++ The BookInstance represents a specific copy of a book that someone might borrow, and includes information about whether the copy is available or on what date it is expected back, "imprint" or version details, and a unique id for the book in the library.    
++ The BookInstance represents a specific copy of a book that someone might borrow, and includes information about whether the copy is available or on what date it is expected back, "imprint" or version details, and a unique id for the book in the library.
++ Copy the Author model (shown below) underneath the existing code in models.py.
+
+## Re-run the database migrations
+
+```
+python3 manage.py makemigrations
+python3 manage.py migrate
+```
+
+
+# Django Admin
+
++ he Django admin application can use your models to automatically build a site area that you can use to create, view, update, and delete records. 
++ he admin application can also be useful for managing data in production, depending on the type of website. 
+
+## Registering models 
+`from django.contrib import admin `
+
+
+
+    
