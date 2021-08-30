@@ -44,4 +44,10 @@ class MyModelName(models.Model):
         return self.my_field_name
   ```
   
+  ### Fields
+  `my_field_name = models.CharField(max_length=20, help_text='Enter field documentation')  `
   
+  we are giving our field two arguments:
+
+`max_length=20` — States that the maximum length of a value in this field is 20 characters.
+`help_text='Enter field documentation'` — provides a text label to display to help users
