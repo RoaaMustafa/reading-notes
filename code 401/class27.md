@@ -50,4 +50,6 @@ class MyModelName(models.Model):
   we are giving our field two arguments:
 
 `max_length=20` — States that the maximum length of a value in this field is 20 characters.
+
+
 `help_text='Enter field documentation'` — provides a text label to display to help users
