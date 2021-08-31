@@ -18,8 +18,22 @@ The form is defined in HTML as a collection of elements inside < form >...< /for
 ```
 
 
-Django's form handling uses all of the same techniques that we learned about in previous tutorials (for displaying information about our models): the view gets a request, performs any actions required including reading data from the models, then generates and returns an HTML page (from a template, into which we pass a context containing the data to be displayed). What makes things more complicated is that the server also needs to be able to process data provided by the user, and redisplay the page if there are any errors.
+### Form
 
+The Form class is the heart of Django's form handling system. It specifies the fields in the form, their layout, display widgets, labels, initial values, valid values, and (once validated) the error messages associated with invalid fields. The class also provides methods for rendering itself in templates using predefined formats (tables, lists, etc.) or for getting the value of any element (enabling fine-grained manual rendering).
+
+
+### Declaring a Form
+
+Form data is stored in an application's forms.py file, inside the application directory. Create and open the file locallibrary/catalog/forms.py. T
+
+```
+from django import forms
+
+class RenewBookForm(forms.Form):
+    renewal_date = forms.DateField(help_text="Enter a date between now and 4 weeks (default 3).")
+    
+```
 
 ### The arguments that are common to most fields are listed below (these have sensible default values):
 
@@ -43,4 +57,19 @@ Django's form handling uses all of the same techniques that we learned about in 
 
 + disabled: The field is displayed but its value cannot be edited if this is True. The default is False.
 
+
+### ModelForms
+
+A basic ModelForm containing the same field as our original RenewBookForm is shown below. All you need to do to create the form is add class Meta with the associated model (BookInstance) and a list of the model fields to include in the form.
+
+```
+from django.forms import ModelForm
+
+from catalog.models import BookInstance
+
+class RenewBookModelForm(ModelForm):
+    class Meta:
+        model = BookInstance
+        fields = ['due_back']
+```
 
