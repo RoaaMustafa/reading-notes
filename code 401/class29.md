@@ -1,4 +1,4 @@
-#  Django Custom User
+#  [Django Custom User](https://learndjango.com/tutorials/django-custom-user-model)
 
 ## AbstractUser vs AbstractBaseUser
 
@@ -7,11 +7,14 @@ AbstractUser and AbstractBaseUser. In both cases we can subclass them to extend 
  AbstractUser which actually subclasses AbstractBaseUser but provides more default configuration.
  
  ### Custom User Model
+ 
  + update config/settings.py
  + create a new CustomUser model
  + create new UserCreation and UserChangeForm
  + update the admin
 
+
+### config/settings.py
 ```
 # config/settings.py
 INSTALLED_APPS = [
@@ -26,7 +29,7 @@ INSTALLED_APPS = [
 ..........................................
 AUTH_USER_MODEL = 'accounts.CustomUser' # new
 ```
-Now update models.py with a new User model which we'll call CustomUser.
+### Now update models.py with a new User model which we'll call CustomUser.
 ```
 # accounts/models.py
 from django.contrib.auth.models import AbstractUser
@@ -40,8 +43,8 @@ class CustomUser(AbstractUser):
         return self.username
 ```
 
- create a new file in the accounts app called forms.py
- 
+ ### create a new file in the accounts app called forms.py
+  ### accounts/forms.py
  ```
  
  # accounts/forms.py
@@ -61,8 +64,8 @@ class CustomUserChangeForm(UserChangeForm):
         model = CustomUser
         fields = ('username', 'email')
  ```
- Finally we update admin.py since the Admin is highly coupled to the default User model.
- 
+ ### Finally we update admin.py since the Admin is highly coupled to the default User model.
+ ###  accounts/admin.py
  ```
  # accounts/admin.py
 from django.contrib import admin
@@ -80,8 +83,8 @@ class CustomUserAdmin(UserAdmin):
 admin.site.register(CustomUser, CustomUserAdmin)
  ```
  
- And we're done! We can now run makemigrations and migrate for the first time to create a new database that uses the custom user model.
- 
+ ### And we're done! We can now run makemigrations and migrate for the first time to create a new database that uses the custom user model.
+ ###   config/settings.py
  ```
  # config/settings.py
 TEMPLATES = [
@@ -92,7 +95,7 @@ TEMPLATES = [
     },
 ]
  ```
- 
+ ### config/settings.py
  ```
  
  # config/settings.py
@@ -100,9 +103,9 @@ LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
  ```
  
- Create a new project-level templates folder and within it a registration folder as that's where Django will look for the log in template. We will also put our signup.html template in there.
+ ### Create a new project-level templates folder and within it a registration folder as that's where Django will look for the log in template. We will also put our signup.html template in there.
  
- 
+ ### creating templates 
  ```
 (accounts) $ touch templates/registration/login.html
 (accounts) $ touch templates/registration/signup.html
@@ -110,7 +113,7 @@ LOGOUT_REDIRECT_URL = 'home'
 (accounts) $ touch templates/home.html
 ```
 
-Base.py
+### templates/base.html
 ```
 <!-- templates/base.html -->
 <!DOCTYPE html>
@@ -127,7 +130,7 @@ Base.py
 </body>
 </html>
 ```
-
+###  templates/home.html
 ```
 <!-- templates/home.html -->
 {% extends 'base.html' %}
@@ -146,7 +149,7 @@ Base.py
 {% endblock %}
 
 ```
-
+###  templates/registration/signup.html
 ```
 
 <!-- templates/registration/signup.html -->
@@ -163,7 +166,7 @@ Base.py
 </form>
 {% endblock %}
 ```
-
+### config/urls.py
 ```
 # config/urls.py
 from django.contrib import admin
@@ -177,7 +180,7 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')),
 ]
 ```
-
+### accounts/urls.py
 ```
 # accounts/urls.py
 from django.urls import path
@@ -187,7 +190,7 @@ urlpatterns = [
     path('signup/', SignUpView.as_view(), name='signup'),
 ]
 ```
-
+###  accounts/views.py
 ```
 # accounts/views.py
 from django.urls import reverse_lazy
@@ -199,4 +202,39 @@ class SignUpView(CreateView):
     form_class = CustomUserCreationForm
     success_url = reverse_lazy('login')
     template_name = 'registration/signup.html'
+```
+## [djangox](https://github.com/wsvincent/djangox)
+### Instullation 
+```
+$ git clone https://github.com/wsvincent/djangox.git
+$ cd djangox
+```
+
+### Pip
+```
+$ python3 -m venv djangox
+$ source djangox/bin/activate
+(djangox) $ pip install -r requirements.txt
+(djangox) $ python manage.py migrate
+(djangox) $ python manage.py createsuperuser
+(djangox) $ python manage.py runserver
+# Load the site at http://127.0.0.1:8000
+```
+### Pipenv
+```
+$ pipenv install
+$ pipenv shell
+(djangox) $ python manage.py migrate
+(djangox) $ python manage.py createsuperuser
+(djangox) $ python manage.py runserver
+# Load the site at http://127.0.0.1:8000
+```
+### Docker
+```
+$ docker build .
+$ docker-compose up -d
+$ docker-compose exec web python manage.py migrate
+$ docker-compose exec web python manage.py createsuperuser
+# Load the site at http://127.0.0.1:8000
+
 ```
