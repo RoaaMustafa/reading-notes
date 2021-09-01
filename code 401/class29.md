@@ -238,6 +238,13 @@ class SignUpView(CreateView):
 
 ## [djangox](https://github.com/wsvincent/djangox)
 
+Another way of using django. Convention over configuration for urls, mako template language support,json response, REST... Visit Snyk Advisor to see a full health score report for djangox, including popularity, security, maintenance & community analysis.
+
+
+There is a temptation for me to continue adding features to DjangoX such as integration with PostgreSQL/Docker, environment variables, third-party packages like django-debug-toolbar and django-extensions, admin hardening, and more. 
+
+
+
 
 ### Instullation 
 
