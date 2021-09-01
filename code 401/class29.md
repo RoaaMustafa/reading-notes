@@ -1,5 +1,7 @@
 #  [Django Custom User](https://learndjango.com/tutorials/django-custom-user-model)
 
+The authentication that comes with Django is good enough for most common cases, but you may have needs not met by the out-of-the-box defaults. Customizing authentication in your projects requires understanding what points of the provided system are extensible or replaceable.
+
 ## AbstractUser vs AbstractBaseUser
 
 AbstractUser and AbstractBaseUser. In both cases we can subclass them to extend existing functionality however AbstractBaseUser requires much, much more work. 
