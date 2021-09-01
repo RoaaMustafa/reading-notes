@@ -8,6 +8,8 @@ AbstractUser and AbstractBaseUser. In both cases we can subclass them to extend 
 
  AbstractUser which actually subclasses AbstractBaseUser but provides more default configuration.
  
+ ## [Setting up and development](https://github.com/RoaaMustafa/reading-notes/edit/main/code%20401/class29.md)
+ 
  ### Custom User Model
  
  + update config/settings.py
