@@ -103,4 +103,100 @@ LOGOUT_REDIRECT_URL = 'home'
  Create a new project-level templates folder and within it a registration folder as that's where Django will look for the log in template. We will also put our signup.html template in there.
  
  
- 
+ ```
+(accounts) $ touch templates/registration/login.html
+(accounts) $ touch templates/registration/signup.html
+(accounts) $ touch templates/base.html
+(accounts) $ touch templates/home.html
+```
+
+Base.py
+```
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Django Auth Tutorial{% endblock %}</title>
+</head>
+<body>
+  <main>
+    {% block content %}
+    {% endblock %}
+  </main>
+</body>
+</html>
+```
+
+```
+<!-- templates/home.html -->
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% if user.is_authenticated %}
+  Hi {{ user.username }}!
+  <p><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">Log In</a> |
+  <a href="{% url 'signup' %}">Sign Up</a>
+{% endif %}
+{% endblock %}
+
+```
+
+```
+
+<!-- templates/registration/signup.html -->
+{% extends 'base.html' %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+<h2>Sign Up</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Sign Up</button>
+</form>
+{% endblock %}
+```
+
+```
+# config/urls.py
+from django.contrib import admin
+from django.urls import path, include
+from django.views.generic.base import TemplateView
+
+urlpatterns = [
+    path('', TemplateView.as_view(template_name='home.html'), name='home'),
+    path('admin/', admin.site.urls),
+    path('accounts/', include('accounts.urls')),
+    path('accounts/', include('django.contrib.auth.urls')),
+]
+```
+
+```
+# accounts/urls.py
+from django.urls import path
+from .views import SignUpView
+
+urlpatterns = [
+    path('signup/', SignUpView.as_view(), name='signup'),
+]
+```
+
+```
+# accounts/views.py
+from django.urls import reverse_lazy
+from django.views.generic.edit import CreateView
+
+from .forms import CustomUserCreationForm
+
+class SignUpView(CreateView):
+    form_class = CustomUserCreationForm
+    success_url = reverse_lazy('login')
+    template_name = 'registration/signup.html'
+```
