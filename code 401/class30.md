@@ -54,6 +54,8 @@ if two keys resolve to the same index in the array then their key/value pairs ca
 
 ...............................................................................................................
 
+
+
 ### Hash maps do this to read value:
 
 + accept a key
@@ -63,6 +65,8 @@ if two keys resolve to the same index in the array then their key/value pairs ca
 + search through the bucket looking for a node with a key/value pair that matches the key you were given
 
 ...............................................................................................................
+
+
 
 ## Bucket Sizes
 
@@ -78,6 +82,8 @@ The load factor tells us something about how full the hash table is.
 A hash table can start with only a few buckets, calculate it’s own load factor, recognize when it gets too full and automatically grow and add more buckets to itself to accommodate more data.
 
 ...............................................................................................................
+
+
 
 ## Internal Methods
 
