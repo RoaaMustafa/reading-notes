@@ -1,20 +1,27 @@
 # Hash Tables
 
+
 ## [What is a Hashtable?](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-30/resources/Hashtables.html)
+
 
 + **Hashtables** are a data structure that utilize key value pairs. This means every Node or Bucket has both a key, and a value.
 
+
  is the ability to store the key into this data structure, and quickly retrieve the value. 
+
 
  A hash is the ability to encode the key that will eventually map to a specific location in the data structure that we can look at directly to retrieve the value.
  
+ 
 + **Terminology**:
+
 
    + Hash - A hash is the result of some algorithm taking an incoming string and converting it into a value that could be used for either security or some other           purpose. In the case of a hashtable, it is used to determine the index of the array.
    + Buckets - A bucket is what is contained in each index of the array of the hashtable. Each index is a bucket. An index could potentially contain multiple             key/value    pairs if a collision occurs.
    + Collisions - A collision is what happens when more than one key gets hashed to the same location of the hashtable.
 
 ## Why do we use them?
+
 
 + Hold unique values
 + Dictionary
@@ -23,8 +30,6 @@
 
 
 .........................................................................................................
-
-
 
 
 A collision occurs when more than one key hashes to the same index in an array. 
@@ -44,7 +49,6 @@ if two keys resolve to the same index in the array then their key/value pairs ca
 ..........................................................................................................
 
 
-
 ### Hash maps do this to store values:
 
 + accept a key
@@ -57,6 +61,7 @@ if two keys resolve to the same index in the array then their key/value pairs ca
 
 
 ### Hash maps do this to read value:
+
 
 + accept a key
 + calculate the hash of the key
@@ -84,8 +89,8 @@ A hash table can start with only a few buckets, calculate it’s own load factor
 ...............................................................................................................
 
 
-
 ## Internal Methods
+
 
 + Add() : send the key to the GetHash method.Once you determine the index of where it should be placed, go to that index,Check if something exists at that index        already, if it doesn’t, add it with the key/value pair.If something does exist, add the new key/value pair to the data structure within that bucket.
 + Find()  :  takes in a key, gets the Hash, and goes to the index location specified. Once at the index location is found in the array, it is then the                  responsibility of the algorithm the iterate through the bucket and see if the key exists and return the value.
