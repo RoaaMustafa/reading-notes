@@ -19,7 +19,13 @@
 + Hold unique values
 + Dictionary
 + Library
+
+
+
 .........................................................................................................
+
+
+
 
 A collision occurs when more than one key hashes to the same index in an array. 
 
@@ -33,7 +39,11 @@ Collisions are solved by changing the initial state of the buckets. Instead of s
 
 if two keys resolve to the same index in the array then their key/value pairs can be stored as a node in a linked list. Each index in the array is called a “bucket”    because it can store multiple key/value pairs.
 
+
+
 ..........................................................................................................
+
+
 
 ### Hash maps do this to store values:
 
