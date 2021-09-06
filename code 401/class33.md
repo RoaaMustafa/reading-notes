@@ -5,6 +5,9 @@
 ### What is JSON Web Token?
 JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. 
 
+
+![JWT](https://gblobscdn.gitbook.com/assets%2F-LA-UVvPgjhMENW3Vxyw%2F-LpZZoszqNqEzfdT29s8%2F-LpZaLsJhjTiD7hZRuxv%2FWhy-Cant-I-Just-Send-JWTs-Without-OAuth-JWT.png?alt=media&token=1225e452-e1c1-4e16-8d12-94ca93f04633)
+
 ### When should you use JSON Web Tokens?
 
 + Authorization: This is the most common scenario for using JWT. Once the user is logged in, each subsequent request will include the JWT, allowing the user to access routes, services, and resources that are permitted with that token.
@@ -20,6 +23,19 @@ JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and s
        +  Private claims: These are the custom claims created to share information between parties that agree on using them and are neither registered or public claims.
 + Signature: To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
 
+
+
+### Base Claims
+
+
+  Here are the base claims that the ColdBox Security JWT token creates for you automatically:
++ Issuer `(iss) `- The issuer of the token (defaults to the application's base URL)
++ Issued At `(iat) `- When the token was issued (unix timestamp)
++ Subject` (sub)` - This holds the identifier for the token (defaults to user id)
++ Expiration time `(exp)` - The token expiry date (unix timestamp)
++ Unique ID `(jti) `- A unique identifier for the token (md5 of the sub and iat claims)
++ Scopes `(scope)` - A space delimited string of scopes attached to the token
++ Refresh Token` (cbsecurity_refresh )` - If you are using refresh tokens, this custom claim will be added to the payload.
 
 ### How do JSON Web Tokens work?
 
