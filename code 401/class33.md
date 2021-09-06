@@ -92,7 +92,28 @@ http post http://127.0.0.1:8000/api/token/refresh/ refresh=eyJ0eXAiOiJKV1QiLCJhb
 ```
 
 
+#### What’s The Point of The Refresh Token?
 
 
+At first glance the refresh token may look pointless, but in fact it is necessary to make sure the user still have the correct permissions. If your access token have a long expire time, it may take longer to update the information associated with the token. That’s because the authentication check is done by cryptographic means, instead of querying the database and verifying the data. So some information is sort of cached.
 
 ## Django Runserver Is Not Your Production Server
+
+
+### Django Runserver Is Not Your Production Server
+
+You’ve been running your app locally with `python manage.py runserver`.
+That’s a fine command, built for development convenience, but it’s not meant to be used as part of a production setup.
+
+`runserver `is not guaranteed to be performant (it’s very slow), and it hasn’t been built with security concerns in mind. Not a good fit for production use.
+
+### So, what’s the right way to approach this?
+
++ A Production Stack: A production setup usually consists of multiple components, each designed and built to be really good at one specific thing. They are fast, reliable and very focused.
+
+
+ ### How Does Django Fit In?
+ 
+ Your Django app does not actually run as you would think a server would - waiting for requests and reacting to them. Your project provides a uwsgi.py file, which contains a function to be called by the application server. This function gets a Python object representing the incoming request.
+
+This function calls your code, and produces a response object which is passed to the WSGI server. There the response is translated into a HTTP response and is passed back to the web server, which finally delivers it to the user.
