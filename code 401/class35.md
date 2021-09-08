@@ -43,6 +43,14 @@ A connected graph is graph that has all of vertices/nodes have at least one edge
 A disconnected graph is a graph where some vertices may not have edges.
 1[Disconnected](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-35/resources/assets/DisconnectedGraph.PNG)
 
+
+##  Graph Representation
+We represent graphs through:
+
++ Adjacency Matrix
++ Adjacency List
+
+
 ## Real World Uses of Graphs
 Graphs are extremely popular when it comes to it’s uses. Here are just a few examples of graphs in use:
 
