@@ -3,13 +3,18 @@
 
 
 |Keyword| Scope         |	Hoisting  |Can Be Reassigned  |Can Be Redeclared|
-
+|-------|---------------|-----------|-------------------|-----------------|
 |var	  | Function scope|	Yes	      |Yes		            |Yes              |
-
 |let	  |Block scope    |	No		    |Yes	              |	No              |
-
 |const  | 	Block scope |	No		    |No		              |No               |
 
+
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 
 
 Template literals
