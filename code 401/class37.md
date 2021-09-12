@@ -2,9 +2,12 @@
 ## [ES6 Syntax and Feature Overview](https://www.taniarascia.com/es6-syntax-and-feature-overview/)
 
 
-|Keyword|.Scope.........|	Hoisting..|Can Be Reassigned..|Can Be Redeclared|
+|Keyword| Scope         |	Hoisting  |Can Be Reassigned  |Can Be Redeclared|
+
 |var	  | Function scope|	Yes	      |Yes		            |Yes              |
+
 |let	  |Block scope    |	No		    |Yes	              |	No              |
+
 |const  | 	Block scope |	No		    |No		              |No               |
 
 
